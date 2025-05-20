@@ -1,4 +1,20 @@
+# Pliki Pythona
 *.pyc
 __pycache__/
+
+# Środowiska i konfiguracje IDE
 .env
 .idea/
+.vscode/
+
+# Pliki danych
+#*.xlsx
+
+# Cache i logi
+cache_dir/
+*.log
+
+# Inne
+*.ipynb_checkpoints
+*.DS_Store
+*~
