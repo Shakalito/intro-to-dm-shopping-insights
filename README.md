@@ -225,3 +225,16 @@ Sugeruje to, że jego jednostkowa cena jest znacznie wyższa, co czyni go produk
 Takie towary generują duży przychód przy relatywnie niewielkiej liczbie transakcji, co może być istotne w planowaniu marż oraz kampanii marketingowych.
 
 ![X](images/Figure_3.png)
+
+
+# Wykorzystane biblioteki i funkcje
+
+- **mlxtend**: Biblioteka do implementacji różnych algorytmów uczenia maszynowego i narzędzi,
+  w tym algorytmu **Apriori** i reguł asocjacyjnych. Umożliwia łatwe kodowanie transakcji (One-Hot),
+  wyznaczanie zbiorów częstych oraz generowanie i ocenę reguł (np. przez `support`, `confidence`, `lift`).
+
+- **openpyxl**: Silnik do wczytywania plików Excel `.xlsx` w `pandas.read_excel`.
+
+- **pandas**: Podstawowa biblioteka do manipulacji danymi – umożliwia łączenie arkuszy, filtrowanie, grupowanie, agregację, tworzenie ramki danych transakcyjnych.
+
+- **matplotlib**: Używana do generowania wykresów wizualizujących sprzedaż i produkty.

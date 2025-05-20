@@ -1,5 +1,4 @@
 import pandas as pd
-import pycountry
 
 arkusze = pd.read_excel('zakupy-online.xlsx', sheet_name=None, engine='openpyxl')
 for nazwa, df_sheet in arkusze.items():

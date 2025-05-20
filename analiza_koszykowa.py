@@ -34,7 +34,7 @@ frequent_itemsets = apriori(
     min_support=min_support,
     use_colnames=True
 )
-print("Zbiory częste (pierwsze 5):")
+print("Zbiory częste (pierwsze pare):")
 print(frequent_itemsets.sort_values('support', ascending=False).head())
 
 rules = association_rules(
